@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-# Image Captioning Model
+## Project Overview
+This project contains a trained deep learning model for automatic image captioning.
 
-This repository contains:
-- `my_caption_model.h5`: Trained Keras model for image captioning
-- `tokenizer.pkl`: Tokenizer for preprocessing captions
-
-## How to use
-
-These files can be loaded in a Python environment for inference or further development.
-
-## Example
+## How to Use
+1. Download both `my_caption_model.h5` and `tokenizer.pkl`.
+2. Load them in your Python environment as shown below:
 
 import tensorflow as tf
 import pickle
@@ -17,6 +11,12 @@ import pickle
 model = tf.keras.models.load_model('my_caption_model.h5')
 with open('tokenizer.pkl', 'rb') as f:
 tokenizer = pickle.load(f)
-=======
-# image-captioning-model
->>>>>>> cd36643c9ca5e3f2c98f62802aacd83a64f1911f
+
+3. Use the model for generating captions on new images!
+## Example Output
+
+![Sample Image](images/sample.jpg)
+
+**Generated Caption:**  
+"A dog running in the park."  <!-- Replace with your model's output for this image -->
+
