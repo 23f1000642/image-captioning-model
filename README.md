@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Image Captioning Model
 
 This repository contains:
@@ -16,3 +17,6 @@ import pickle
 model = tf.keras.models.load_model('my_caption_model.h5')
 with open('tokenizer.pkl', 'rb') as f:
 tokenizer = pickle.load(f)
+=======
+# image-captioning-model
+>>>>>>> cd36643c9ca5e3f2c98f62802aacd83a64f1911f
